@@ -1,0 +1,92 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+.AI_Backend/ecom/
+.AI_Backend/ecom
+AI_Backend/ecom/
+
+# VSCode
+.vscode/
+
+# Environment variable files
+.env
+*.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python tooling
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Logs
+*.log
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uvicorn reload cache
+reload.db
+
+# Node modules and frontend build files
+node_modules/
+node_modules/
+
+# React build files
+build/
+.next/
+
+# Yarn and NPM lock files
+package-lock.json
+yarn.lock
+
+# IDE and editor specific settings
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Webpack / Babel config files
+webpack.config.js
+babel.config.js
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Frontend local env files
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Next.js (if used)
+.next/
+
+# Storybook (if used)
+.storybook/
+
+# Public directory (if you use dynamic content or files from outside public)
+public/
+
+# Static file caches
+.cache/
+
+# Jest (if you use Jest for testing)
+jest/
+
+# ESLint cache
+.eslintcache

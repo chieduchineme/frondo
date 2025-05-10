@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.nav-buttons button {
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  background-color: #555;
+}
+
+/* Section Layout */
+.section {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-left: 20px; /* Add space from the left side */
+  overflow-x: auto;  /* Allow horizontal scroll if table overflows */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Search and Pagination Controls (Horizontal Layout) */
+.search-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-controls select,
+.select-input,
+.search-controls button {
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.search-controls button {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-controls button:hover {
+  background-color: #666;
+}
+
+/* Table Styles */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid white;
+}
+
+.data-table th {
+  background-color: #222;
+}
+
+.data-table td {
+  background-color: #333;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-numbers {
+  display: flex;
+}
+
+.page-numbers button {
+  background-color: #444;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.page-numbers button:hover {
+  background-color: #555;
+}
+
+.page-numbers button.active {
+  background-color: #666;
+}
+
+.pagination button {
+  background-color: #444;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #555;
+}
+
+/* Chatbot Styles */
+.chat-box {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.chat-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.chat-message.user {
+  background-color: #444;
+  align-self: flex-start;
+}
+
+.chat-message.bot {
+  background-color: #555;
+  align-self: flex-end;
+}
+
+.chat-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-form input {
+  padding: 10px;
+  flex: 1;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #666;
+  background-color: #333;
+  color: white;
+}
+
+.chat-form button {
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chat-form button:hover {
+  background-color: #555;
+}
+
+/* Select Dropdown Custom Styling */
+.select-input {
+  width: 200px;
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+/* Formatted Readable Rows */
+.formatted-rows {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #2a2a2a; /* distinct from #333 */
+  border: 1px solid #666;
+  border-radius: 6px;
+  color: white;
+  overflow-x: auto;
+  font-family: 'Georgia', serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.formatted-entry {
+  margin-bottom: 15px;
+}
+
+.formatted-entry ul {
+  padding-left: 20px;
+}
+
+.formatted-entry li ul {
+  padding-left: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-buttons {
+    flex-direction: column;
+  }
+
+  .search-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pagination {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-numbers button {
+    margin: 5px 0;
+  }
+
+  .chat-box {
+    margin-bottom: 10px;
+  }
+}
