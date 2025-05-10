@@ -79,8 +79,7 @@ yarn-error.log*
 # Storybook (if used)
 .storybook/
 
-# Public directory (if you use dynamic content or files from outside public)
-public/
+
 
 # Static file caches
 .cache/
